@@ -58,6 +58,17 @@ section.home {
   transform: scale(0.98);
 }
 
+.logo {
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: black;
+}
+
+.logo:hover {
+    letter-spacing: 6px;
+}
+
 .logo a {
   position: absolute;
   top: 30px;
@@ -107,6 +118,18 @@ section.home {
 
 .navigation.active {
   left: 0;
+}
+
+
+.navigation ul li {
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: black;
+}
+
+.navigation ul li:hover {
+    letter-spacing: 3px;
 }
 
 .navigation ul {
