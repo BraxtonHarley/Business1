@@ -137,6 +137,7 @@ section.home {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 50px;
 }
 
 .navigation .social-bar a {
