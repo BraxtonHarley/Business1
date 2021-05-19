@@ -213,28 +213,27 @@ section.home {
   position: absolute;
   bottom: 100px;
   z-index: 10;
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center; 
-  transform: scale(2);
-  margin-left: 75px;
+  transform: scale(3);
+  margin-left: 175px;
 }
 
 .social li {
   list-style: none;
 }
 
-.social li a img {
+.social li a i {
   display: inline-block;
-  
+  color: var(--primary-color);
   margin-right: 20px;
-  transform: scale(0.5);
   transition: 0.5s;
   
 }
 
-.social li a img:hover {
-  transform: scale(0.5) translateY(-30px);
+.social li a i:hover {
+  transform: scale(1) translateY(-7px);
 }
 
 
