@@ -106,7 +106,7 @@ section.home {
   right: 0;
   width: 60px;
   height: 60px;
-  background: var(--primary-color) url(../images/menu.png);
+  background: var(--primary-color) url(../assets/images/menu.png);
   background-size: 30px;
   background-position: center;
   background-repeat: no-repeat;
@@ -115,7 +115,7 @@ section.home {
 }
 
 .toggle.active {
-  background: var(--primary-color) url(../images/close.png);
+  background: var(--primary-color) url(../assets/images/close.png);
   background-size: 25px;
   background-position: center;
   background-repeat: no-repeat;
@@ -380,7 +380,7 @@ section.home {
 .contact-info {
   width: 350px;
   background: #f9f9f9;
-  padding: 60px 40px 20px;
+  padding: 35px 40px 30px 20px;
 }
 
 .contact-info .info-box {
