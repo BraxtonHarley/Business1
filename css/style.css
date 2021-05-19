@@ -43,7 +43,7 @@ section.home {
 }
 
 /* BUTTON */
-.btn {
+/* .btn {
   cursor: pointer;
   display: inline-block;
   background: var(--primary-color);
@@ -56,6 +56,24 @@ section.home {
 
 .btn:hover {
   transform: scale(0.98);
+} */
+
+.btn  {
+  display: inline-block;
+  font-size: 1em;
+  background: var(--primary-color);
+  padding: 10px 30px;
+  text-decoration: none;
+  color: white;
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.2s;
+  border-radius: 50px;
+}
+
+.btn:hover {
+  letter-spacing: 6px;
 }
 
 .logo {
@@ -67,6 +85,7 @@ section.home {
 
 .logo:hover {
     letter-spacing: 6px;
+   
 }
 
 .logo a {
@@ -76,7 +95,7 @@ section.home {
   font-size: 2rem;
   font-weight: 700;
   z-index: 20;
-  color: #111;
+  color: var(--primary-color);
   text-decoration: none;
 }
 
@@ -189,6 +208,35 @@ section.home {
   right: 0;
   height: 110%;
 }
+
+.social {
+  position: absolute;
+  bottom: 100px;
+  z-index: 10;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center; 
+  transform: scale(2);
+  margin-left: 75px;
+}
+
+.social li {
+  list-style: none;
+}
+
+.social li a img {
+  display: inline-block;
+  
+  margin-right: 20px;
+  transform: scale(0.5);
+  transition: 0.5s;
+  
+}
+
+.social li a img:hover {
+  transform: scale(0.5) translateY(-30px);
+}
+
 
 /* SERVICES PAGE */
 .services {
