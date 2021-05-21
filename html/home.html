@@ -4,15 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
+    <!-- FONT AWESOME -->
     <link rel="stylesheet" href="../fontawesome-free/css/all.min.css">
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/style.css" /> 
+    
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" />
+    
     <title>Braxton Harley</title>
   </head>
   
   <body>
     <header>
       <div class="logo">
-        <a href="./home.html">Braxton Harley
+        <a data-aos="zoom-in-down" href="./work.html">Braxton Harley
           <br>
           Web Developer
         </a>
@@ -54,15 +60,15 @@
     </header>
 
     <section class="home">
-      <img src="../assets/images/profile002.jpeg" class="home-img" alt="" />
+      <img  src="../assets/images/profile002.jpeg" class="home-img" alt="" />
       <div class="home-content">
-        <h1>
+        <h1 data-aos="zoom-out-up" >
           Giving a voice <br />
           to 
-         <span class="span">YOUR</span>  
+         <span  class="span">YOUR</span>  
           brand.
         </h1>
-        <p>
+        <p data-aos="zoom-out-up">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo itaque
           nam saepe vero voluptatem vel fuga a eaque earum alias ipsam
           aspernatur culpa maxime laboriosam, impedit quae officiis consectetur
@@ -100,6 +106,23 @@
 
     </section>
 
+    <!-- MENU TOGGLE -->
     <script src="../js/script.js"></script>
+
+    <!-- AOS  -->
+  <script 
+    src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" 
+    integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" 
+    crossorigin="anonymous">
+  </script>
+
+  <script>
+    AOS.init({
+    delay: 200,
+    duration: 2000,
+    once: false,
+    })
+  </script>
+
   </body>
 </html>
